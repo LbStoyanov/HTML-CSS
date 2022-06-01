@@ -60,13 +60,15 @@
     border: none;
     border-color: rgb(0, 162, 255);
     border-radius: 30px;
+    border-style: none;
     cursor: pointer;
     margin-right: 8px;
     margin-left: 10px;
     font-weight: bold;
     font-size: 20px;
     margin-top: 10px;
-    margin-left: 30px;
+    margin-left: 40px;
+    margin-right: 30px;
     padding-left: 35px;
     padding-right: 35px;
     padding-top: 15px;
@@ -75,18 +77,50 @@
   }
 
   .tweet-button:hover{
-    opacity: 0.6;
+    opacity: 0.5;
     color: rgb(0, 110, 255);
     background-color: white;
-    border-style: solid;
+   
     border-color: rgb(0, 110, 255);
   }
 
-  
 </style>
 
 
 
-<button class="tweet-button">
-  Tweet
-</button>
+<button class="tweet-button">Tweet</button>
+
+<style>
+  .back-button{
+    color: aqua;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 40px;
+    color: white;
+    background-color: rgb(9, 214, 2);
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: box-shadow 0.15s;
+    transition: 0.6s;
+    transition: opacity 0.3s;
+    cursor: pointer;
+  }
+
+  .back-button:hover{
+    opacity: 0.6;
+  }
+
+  .back-button{
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.15);
+  }
+</style>
+
+<button class="back-button">Back</button>
+
+<a class="search-result" href="http://youtube.com"target="_blank">1</a>
+<a class="search-result" href="http://youtube.com"target="_blank">2</a>
+<a class="search-result" href="http://youtube.com"target="_blank">3</a>
+<a class="search-result" href="http://youtube.com"target="_blank">4</a>
