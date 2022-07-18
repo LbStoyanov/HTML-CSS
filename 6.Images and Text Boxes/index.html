@@ -5,12 +5,23 @@
     <title>YouTube.com clone</title>
 
     <style>
-      .thumbnail {   
-        width: 200px;        
+      .thumbnail {
+        width: 300px;
       }
 
       .search-bar {
+        display: block;
+        margin-bottom: 20px;
+      }
 
+      .video-title {
+        width: 300px;
+      }
+
+      .video-preview{
+        width: 300px;
+        display: inline-block;
+        margin-right: 10px;
       }
     </style>
 
@@ -22,22 +33,38 @@
     />
   </head>
   <body>
-    
-
-    <img
-      class="thumbnail"
-      src="thumbnails/hq720.webp"
-      alt="Error Loading IMG"
-    />
-
     <input class="search-bar" type="text" placeholder="Search" />
 
-    <p>Snoop Dogg, The Game, YG - Gangsta Zone ft. Tha Dogg</p>
+    <div class="video-preview">
+      <img
+        class="thumbnail"
+        src="thumbnails/hq720.webp"
+        alt="Error Loading IMG"
+      />
 
-    <p>Long Beach Finest</p>
-        
-    <p>180K views &#183; days ago</p>
-        
-    
+      <p class="video-title">
+        Snoop Dogg, The Game, YG - Gangsta Zone ft. Tha Dogg
+      </p>
+
+      <p>Long Beach Finest</p>
+
+      <p>180K views &#183; 2 days ago</p>
+    </div>
+
+    <div class="video-preview">
+        <img
+          class="thumbnail"
+          src="thumbnails/hq720 (1).webp"
+          alt="Error Loading IMG"
+        />
+  
+        <p class="video-title">
+            Snoop Dogg, Dr. Dre, Nas - Up The Smoke ft. Xzibit, B-Real, Method Man (2022)
+        </p>
+  
+        <p>Long Beach Finest</p>
+  
+        <p>547K views &#183; 10 days ago</p>
+      </div>
   </body>
 </html>
