@@ -33,3 +33,26 @@ i{
     width: 1.14em;
     padding-right: 0.28em;
 }
+
+button{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    line-height: 20px;
+    color: #ffffff;
+    border-color: rgb(0,0,0,0.25);
+    cursor: pointer;
+}
+
+.shopping{
+    background-color: #83a94c;
+}
+
+.info{
+    background-color: #008ed0;
+}
+
+.delete{
+    background-color: #cc4036;
+}
